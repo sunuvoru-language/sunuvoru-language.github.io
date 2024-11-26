@@ -1,0 +1,317 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/png" href="favicon.png">
+    <title>Язык Sunuvoru</title>
+    <style>
+        @font-face {
+            font-family: 'Liberation Sans';
+            src: url('https://fonts.cdnfonts.com/s/15286/LiberationSans-Regular.ttf') format('truetype');
+        }
+        body {
+            font-family: 'Liberation Sans', Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #fff7e6;
+            color: #333;
+        }
+        header {
+            background: #ffcc33;
+            color: #333;
+            padding: 1rem 0;
+            text-align: center;
+        }
+		.language-toggle {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+        }
+		.language-button {
+            text-decoration: none;
+            color: #333;
+            margin-left: 10px;
+            font-size: 16px;
+            font-weight: bold;
+            padding: 5px 10px;
+            background-color: #ffffff;
+            border-radius: 5px;
+            border: 1px solid #333;
+        }
+		.language-button:hover {
+            background-color: #333;
+            color: #ffffff;
+        }
+        section {
+            padding: 1rem 2rem;
+        }
+        h1, h2, h3 {
+            color: #ff9900;
+        }
+        .example {
+            font-style: italic;
+            color: #555;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1rem 0;
+        }
+        table th, table td {
+            border: 1px solid #ffcc33;
+            padding: 0.5rem;
+            text-align: left;
+        }
+        table th {
+            background: #ffeb99;
+        }
+        footer {
+            background: #ffcc33;
+            color: #333;
+            text-align: justify;
+            padding: 1rem 0;
+            margin-top: 2rem;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        footer p {
+            max-width: 90%;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+		.privacy-notice {
+            background-color: #f7f7f7;
+            color: #555;
+            padding: 1rem 1.5rem;
+            margin-top: 1rem;
+            font-size: 14px;
+            text-align: justify;
+            max-width:85%;
+            margin: 0 auto;
+            border-radius: 5px;
+        }
+		.privacy-notice p {
+            margin: 0;
+            padding: 0;
+		}
+		.examples-button {
+            margin-top: 1.5rem; /* Отступ сверху */
+		}
+		.examples-button a {
+            background-color: #ffcc33; /* Желтый фон по умолчанию */
+            color: #fff;
+            padding: 0.75rem 1.5rem;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+		}
+		.examples-button a:hover {
+            background-color: #333; /* Темный фон при наведении */
+            color: #ffcc33; /* Желтый текст при наведении */
+		}
+    </style>
+</head>
+<body>
+    <header>
+	<div class="language-toggle">
+        <a href="index.html" class="language-button">English</a>
+        <a href="index_ru.html" class="language-button">Русский</a>
+    </div>
+        <h1>Добро пожаловать в мир Sunuvoru Language!</h1>
+        <p>Язык света и простоты.</p>
+	<div class="examples-button">
+        <a href="examples_ru.html">Примеры использования языка</a>
+    </div>
+    </header>
+    <section>
+        <h2>О языке</h2>
+        <p>Sunuvoru — минималистичный язык, созданный для выражения сложных идей с помощью небольшого набора слов и правил. Каждое слово многозначное, его смысл определяется контекстом. Язык сочетает в себе ясность и компактность, делая общение интуитивно понятным.</p>
+        <p>Философия языка отражает стремление к простоте и гармонии. Использование одного слова для множества значений помогает передавать идеи с максимальной экономией выражений, а также позволяет человеку легче адаптироваться к языковым конструкциям. В Sunuvoru каждый элемент несёт в себе глубокое значение, которое усиливает общее восприятие мира через простоту.</p>
+	<section>
+    <h2>Как переводится название языка?</h2>
+    <p><strong>Sunuvoru</strong> — это слово, которое раскрывает философию самого языка через его составные части. Каждая часть названия несет в себе глубокий смысл:</p>
+    <ul>
+        <li><strong>su-</strong>: приставка усиления, которая придает словам больше значения и силы.</li>
+        <li><strong>nu</strong>: указание на "это", "здесь", что подчеркивает актуальность и присутствие в настоящем моменте.</li>
+        <li><strong>vor</strong>: основа, означающая "животное", "жизнь" и "природу", символизирует связь языка с живыми существами и природой.</li>
+        <li><strong>-u</strong>: уменьшительное окончание, которое придает словам легкость и маленький размер, создавая ощущение простоты и гармонии.</li>
+    </ul>
+    <p>Таким образом, название <strong>Sunuvoru</strong> можно перевести как "язык, который усиливает жизнь и природу, в простоте и гармонии". Оно отражает стремление языка к точности, глубине и естественности, а также его философию, где даже самые простые формы могут быть многозначными и глубокими.</p>
+    </section>
+	</section>
+    <section>
+        <h2>Грамматика</h2>
+
+        <h3>1. Алфавит</h3>
+        <p>Sunuvoru использует упрощённый алфавит: <strong>a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, r, s, t, u, v, y, z.</strong></p>
+        <p>Каждая буква произносится следующим образом:</p>
+<ul>
+    <li><strong>a</strong> – /ɑ/ (как в английском "father")</li>
+    <li><strong>b</strong> – /b/ (как в английском "bat")</li>
+    <li><strong>c</strong> – /k/ (как в английском "cat")</li>
+    <li><strong>d</strong> – /d/ (как в английском "dog")</li>
+    <li><strong>e</strong> – /ɛ/ (как в английском "bed")</li>
+    <li><strong>f</strong> – /f/ (как в английском "fish")</li>
+    <li><strong>g</strong> – /g/ (как в английском "go")</li>
+    <li><strong>h</strong> – /h/ (как в английском "hat")</li>
+    <li><strong>i</strong> – /ɪ/ (как в английском "sit")</li>
+    <li><strong>j</strong> – /ʒ/ (как в французском "jour")</li>
+    <li><strong>k</strong> – /k/ (как в английском "key")</li>
+    <li><strong>l</strong> – /l/ (как в английском "lamp")</li>
+    <li><strong>m</strong> – /m/ (как в английском "man")</li>
+    <li><strong>n</strong> – /n/ (как в английском "net")</li>
+    <li><strong>o</strong> – /oʊ/ (как в английском "go")</li>
+    <li><strong>p</strong> – /p/ (как в английском "pen")</li>
+    <li><strong>r</strong> – /ɹ/ (как в английском "red")</li>
+    <li><strong>s</strong> – /s/ (как в английском "sit")</li>
+    <li><strong>t</strong> – /t/ (как в английском "top")</li>
+    <li><strong>u</strong> – /ʊ/ (как в английском "put")</li>
+    <li><strong>v</strong> – /v/ (как в английском "van")</li>
+    <li><strong>y</strong> – /aɪ/ (как в английском "my")</li>
+    <li><strong>z</strong> – /z/ (как в английском "zebra")</li>
+</ul>
+        <h3>Артикли</h3>
+        <ul>
+            <li><strong>Определённый (la)</strong>: указывает на конкретное существительное. <br>
+                Пример: <span class="example">la lum</span> – "этот дом".</li>
+            <li><strong>Неопределённый (li)</strong>: указывает на неконкретное существительное. <br>
+                Пример: <span class="example">li mal</span> – "какая-то еда".</li>
+        </ul>
+		
+    <h3>Союзы и частицы</h3>
+    <p>Для связи идей используются следующие союзы и частицы:</p>
+    <ul>
+        <li><strong>an</strong> – и, а также. <br>
+            Пример: <span class="example">nir tav-a an rim-a.</span> – "Человек идёт и поет".</li>
+        <li><strong>na</strong> – но, однако. <br>
+            Пример: <span class="example">кa-mal-i na rim-y.</span> – "Грязный, но довольный".</li>
+        <li><strong>ki</strong> – если, когда. <br>
+            Пример: <span class="example">ki rim-a, nir lum-a la lum nu.</span> – "Если хочет, человек живёт (в доме)".</li>
+    </ul>
+
+    <h3>Указательные слова</h3>
+    <p>Чтобы добавить контекст в предложения, используются указательные слова:</p>
+    <ul>
+        <li><strong>nu</strong> – это, здесь. <br>
+            Пример: <span class="example">la lum nu.</span> – "Этот дом".</li>
+        <li><strong>mo</strong> – там, то. <br>
+            Пример: <span class="example">li vor mo.</span> – "То животное".</li>
+    </ul>
+
+    <h3>Построение вопросов</h3>
+    <p>Для построения вопросов используется частица <strong>ko</strong>, которая ставится в начало предложения:</p>
+    <ul>
+        <li><strong>Ko</strong> ставится в начало предложения. <br>
+            Пример: <span class="example">Ko nir tav-a</span> – "Человек идёт?"</li>
+        <li>Пример: <span class="example">Ko la lum fir-i</span> – "Дом крепкий?"</li>
+    </ul>
+		
+        <h3>Приставки</h3>
+        <ul>
+            <li><strong>ka-</strong>: отрицание или противоположность. <br>
+                Пример: <span class="example">kamal</span> – "голод".</li>
+            <li><strong>su-</strong>: усиление. <br>
+                Пример: <span class="example">sufir</span> – "величайшая сила".</li>
+            <li><strong>ti-</strong>: уменьшение. <br>
+                Пример: <span class="example">tivor</span> – "маленькое животное".</li>
+        </ul>
+    <h3>Окончания</h3>
+    <p>Окончания добавляют значения словам:</p>
+    <h3>Для прилагательных:</h3>
+    <ul>
+        <li><strong>-i</strong>: базовая форма прилагательного. <br>
+            Пример: <span class="example">firi</span> – "сильный".</li>
+        <li><strong>-y</strong>: сравнительная степень. <br>
+            Пример: <span class="example">firy</span> – "сильнее".</li>
+        <li><strong>-ti</strong>: превосходная степень. <br>
+            Пример: <span class="example">firti</span> – "самый сильный".</li>
+    </ul>
+
+    <h3>Для глаголов:</h3>
+    <ul>
+        <li><strong>Базовая форма</strong>: заканчивается на -a или -u. <br>
+            Пример: <span class="example">lum-a</span> – "жить".</li>
+        <li><strong>Прошедшее время</strong>: добавляем -ta. <br>
+            Пример: <span class="example">lum-ata</span> – "жил".</li>
+        <li><strong>Будущее время</strong>: добавляем -ru. <br>
+            Пример: <span class="example">lum-aru</span> – "будет жить".</li>
+    </ul>
+
+    <h3>Для существительных:</h3>
+    <ul>
+        <li><strong>-i</strong>: для обозначения множества, несколько предметов. <br>
+            Пример: <span class="example">lum-i</span> – "дома" (множественное число).</li>
+        <li><strong>-u</strong>: уменьшительная форма существительного. <br>
+            Пример: <span class="example">lum-u</span> – "домик".</li>
+    </ul>
+
+    <h3>Правила построения предложений</h3>
+    <p>Структура предложений максимально простая. В языке Sunuvoru используется стандартная пунктуация: точки для завершения предложений, запятые для разделения однородных элементов и сложных конструкций, а также вопросительная частица ko вместо знака вопроса. Однако в упрощённой форме язык допускает минималистичный подход, где можно полностью опустить все знаки препинания, оставив только точки для разделения предложений.</p>
+    
+    <h3>Базовый порядок слов:</h3>
+    <p>Базовый порядок слов в предложении следующий:</p>
+    <ul>
+        <li><strong>Субъект (подлежащее)</strong></li>
+        <li><strong>Глагол</strong></li>
+        <li><strong>Объект</strong></li>
+    </ul>
+    <p>Пример: <span class="example">nir lum-a la mal.</span> – "Человек живёт домом" (или "живёт в доме").</p>
+
+    <h3>Описание объекта (с прилагательными):</h3>
+    <p>Если необходимо добавить описание объекта (с прилагательными), то структура предложения будет следующей:</p>
+    <ul>
+        <li><strong>Субъект</strong></li>
+        <li><strong>Глагол</strong></li>
+        <li><strong>Объект + Прилагательное</strong></li>
+    </ul>
+    <p>Пример: <span class="example">nir lum-a li lum fir-i.</span> – "Человек живёт в крепком доме".</p>
+
+    <h3>Временные формы:</h3>
+    <p>Прошедшее и будущее время передаются через окончания на глаголах.</p>
+    <ul>
+        <li>Прошедшее время: добавляется окончание <strong>-ta</strong></li>
+        <li>Будущее время: добавляется окончание <strong>-ru</strong></li>
+    </ul>
+    <p>Пример: <span class="example">nir lum-ata la lum nu.</span> – "Человек жил в этом доме".</p>
+
+    </section>
+    <section>
+        <h2>Словарь основ</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Слово</th>
+                    <th>Значение</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>lum</td><td>дом, место, пространство</td></tr>
+                <tr><td>mal</td><td>еда, пища, запас, ресурсы</td></tr>
+                <tr><td>nir</td><td>человек, существо, друг</td></tr>
+                <tr><td>tav</td><td>путь, дорога, движение</td></tr>
+                <tr><td>kil</td><td>вода, жидкость, река</td></tr>
+                <tr><td>sun</td><td>свет, день, солнце, тепло</td></tr>
+                <tr><td>pal</td><td>вещь, предмет, объект</td></tr>
+                <tr><td>zen</td><td>время, момент, событие</td></tr>
+                <tr><td>fir</td><td>сила, энергия, мощь</td></tr>
+                <tr><td>hak</td><td>воздух, ветер, небо</td></tr>
+                <tr><td>vor</td><td>животное, жизнь, природа</td></tr>
+                <tr><td>rim</td><td>любовь, чувство, желание</td></tr>
+            </tbody>
+        </table>
+    </section>
+    <footer>
+    <p>&copy; <b>2024 Sunuvoru Community Project. Язык был разработан Петровым И.</b> <br> Язык Sunuvoru свободен для использования и распространения без ограничений (то есть, его можно использовать для общения, писать на нем, включать в проекты, книги, игры и любые другие виды деятельности). Все материалы, размещенные на сайте, лицензируются по лицензии CC BY-NC-SA 4.0 (что позволяет использовать, адаптировать и распространять материалы с указанием авторства, при этом они не могут быть использованы в коммерческих целях. Все производные работы должны быть лицензированы аналогично, и в случае изменений или адаптаций необходимо указать, что материалы были изменены в отличие от оригинала).</p>
+    <br>
+	<p>Язык Sunuvoru и материалы, связанные с ним, предоставляются «как есть», без каких-либо гарантий. Создатели и участники проекта не несут ответственности за любые проблемы, возникающие в результате их использования.<p>
+    <br>
+	    <div class="privacy-notice">
+        <p>Этот сайт не применяет куки-файлы. Администрация сайта не осуществляет сбор, обработку или контроль за вашими персональными данными. Все технические процессы работы сайта ограничены его контентом, и администрация не использует, а также не имеет доступа к инструментам для сбора пользовательской информации.</p>
+    </div>
+    </footer>
+</body>
+</html>
